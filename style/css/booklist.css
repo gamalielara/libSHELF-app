@@ -1,0 +1,34 @@
+.genre-label{
+    display: inline-block;
+    color: white;
+    margin: 5px 0;
+}
+
+.horror{
+    background-color: gray;
+}
+
+.mystery{
+    background-color: rgb(247, 89, 89);
+}
+
+button{
+    display: inline-block;
+}
+
+th{font-size: 1.5vmax;}
+
+p, td{font-size: 1vmax !important;}
+
+td.short-review > button{
+    display: none;
+}
+
+
+/* --------- MEDIA QUIRES ---------  */
+@media screen and (max-width: 768px){
+
+    .book-cover{
+        min-width: 100% !important;
+    }
+}
